@@ -3,10 +3,10 @@
  */
 
 'use strict';
-require('../../../lib/docco/resources/linear/docco.css')
+require('docco/resources/linear/docco.css')
 
-var Doccomponent = require('../../../lib/Doccomponent')
-var doc1 = require('../../../lib/doccoLoader.js!../../doc/docco.litcoffee');
+var Doccomponent = require('../../../lib/docco-loader/Doccomponent')
+var doc1 = require('../../../lib/docco-loader/index.js!../../doc/docco.litcoffee');
 
 var React = require('react/addons');
 var ReactTransitionGroup = React.addons.TransitionGroup;
