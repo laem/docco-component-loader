@@ -10,9 +10,7 @@
   "main": "index.js",
   "mainOutput": "main",
   "dependencies": {
-    "react": "*"
-  },
-  "devDependencies": {
+    "react": "*",
     "jsx-loader": "*",
     "docco": "git://github.com/laem/docco.git",
     "loader-utils": "*",
