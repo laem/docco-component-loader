@@ -5,8 +5,8 @@
 'use strict';
 require('../../../lib/docco/resources/linear/docco.css')
 
-//var Doc1 = require('../../../lib/doccoLoader.js!../../doc/tintin.js');
-var Docco = require('../../../lib/doccoLoader.js!../../../lib/docco/docco.litcoffee');
+var Doc1 = require('../../../lib/doccoLoader.js!../../doc/tintin.js');
+//var Docco = require('../../../lib/doccoLoader.js!../../../lib/docco/docco.litcoffee');
 
 var React = require('react/addons');
 var ReactTransitionGroup = React.addons.TransitionGroup;
@@ -25,8 +25,7 @@ var DoccoLoaderApp = React.createClass({
     return (
       <div className='main'>
         <ReactTransitionGroup transitionName="fade">
-          <Doc1/>
-          <Docco/>
+          <div  dangerouslySetInnerHTML={{__html: "<div>Yo }   </div>"}}/>
         </ReactTransitionGroup>
       </div>
     );
